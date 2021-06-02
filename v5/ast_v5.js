@@ -161,7 +161,7 @@ let {code} = generator(ast, {
         minimal: true
     }
 });
-console.log(code);
+// console.log(code);
 let output_file = input_file.split(".js")[0] + "_result.js"
 fs.writeFile(output_file, code, (err) => {
 });
